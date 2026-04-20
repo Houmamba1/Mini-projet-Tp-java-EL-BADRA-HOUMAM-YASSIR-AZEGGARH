@@ -1,10 +1,5 @@
 package paie.exception;
 
-/**
- * Exception checked levée lorsque les données de travail sont invalides :
- * - heuresTravaillees > 240 (plafond légal)
- * - salaireBase < 3000 DH (SMIG marocain)
- */
 public class InvalidWorkDataException extends Exception {
 
     private final String field;
